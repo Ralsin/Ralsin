@@ -1,0 +1,159 @@
+/* No light theme support; quotes anim is broken and I wont fix it. */
+:root {
+    --primary-100: hsl(230, 10%, 50%);
+    --primary-130: hsl(230, 10%, 70%);
+    --primary-160: hsl(230, 10%, 1%);
+    --primary-200: hsl(230, 10%, 85%);
+    --primary-230: hsl(230, 10%, 75%);
+    --primary-260: hsl(230, 10%, 7%);
+    --primary-300: hsl(230, 10%, 75%);
+    --primary-330: hsl(230, 10%, 75%);
+    --primary-345: hsl(230, 10%, 11%);
+    --primary-360: hsl(230, 10%, 75%);
+    --primary-400: hsl(230, 10%, 75%);
+    --primary-430: hsl(230, 10%, 75%);
+    --primary-460: hsl(230, 10%, 12%);
+    --primary-500: hsl(230, 10%, 40%);
+    --primary-530: hsl(230, 10%, 13%);
+    --primary-560: hsl(230, 10%, 14%);
+    --primary-600: hsl(230, 10%, 15%);
+    --primary-630: hsl(230, 10%, 16%);
+    --primary-645: hsl(230, 10%, 17%);
+    --primary-660: hsl(230, 10%, 18%);
+    --primary-700: hsl(230, 10%, 19%);
+    --primary-730: hsl(230, 10%, 10%);
+    --primary-760: hsl(230, 10%, 11%);
+    --primary-800: hsl(230, 10%, 22%);
+    --primary-830: hsl(230, 10%, 23%);
+    --primary-860: hsl(230, 10%, 24%);
+    --primary-900: hsl(230, 10%, 25%);
+    --background-primary: hsl(230, 10%, 15%);
+    --background-secondary: hsl(230, 10%, 15%);
+    --background-secondary-alt: hsl(230, 10%, 18%);
+    --background-tertiary: hsl(230, 10%, 18%);
+    --background-modifier-selected: hsl(230, 10%, 20%);
+    --bg-dark: hsl(230, 10%, 10%);
+    --bg-light: hsl(230, 10%, 15%);
+    --bg-lighter: hsl(230, 10%, 18%)
+}
+.scrollerBase-1Pkza4,
+.sidebar-1tnWFu,
+.container-1NXEtd,
+.content-yjf30S,
+.option-ayUoaq,
+.scroller-3X7KbA {
+    background-color: var(--bg-light)
+}
+.expandedFolderIconWrapper-3RwQpD,
+.expandedFolderBackground-1kSAf6 {
+    background-color: var(--bg-dark)
+}
+.buttons-uaqb-5>button.button-ejjZWC,
+.bannerSVGWrapper-2CLfzN>mask>circle,
+.section-28YDOf:has(>.note-1NN2aP) {
+    display: none
+}
+.scroller-15bIdk {
+    border-radius: 8px
+}
+.sidebar-1tnWFu {
+    border-radius: 0
+}
+.header-3OsQeK {
+    border-radius: 0 0 0 8px
+}
+.panels-3wFtMD,
+.container-YkUktl {
+    background-color: var(--bg-lighter);
+    border-radius: 16px 16px 0 0
+}
+.chat-2ZfjoI {
+    border-radius: 0 0 0 16px
+}
+.scroller-3X7KbA {
+    border-radius: 0 16px 16px 0
+}
+.contentColumn-1C7as6,
+.settingsColumn-1wHgCk,
+.container-2J1IM0,
+.customColumn-2n-oKU {
+    max-width: 100%;
+    flex: 1 1 75%;
+    margin-right: 5%
+}
+.customScroller-m1-jZn>div {
+    max-width: 85%
+}
+.contentColumnWide-2CgNjO {
+    max-width: 100%
+}
+.toolsContainer-25FL6V {
+    right: 5%
+}
+.testimonialHeroContainer-18HL2a,
+.animatedContainer-H9qOt8 {
+    display: flex
+}
+.animatedContainer-H9qOt8>div {
+    display: flex;
+    width: 100%;
+    flex-shrink: 0
+}
+.animatedContainer-H9qOt8>div>.testimonial-3w2QGT {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+.sidebarRegion-1VBisG {
+    margin-left: 5%;
+    flex: 1 1
+}
+.contentRegion-3HkfJJ {
+    flex: 1 1 75%
+}
+.quotes-2V2Pcj {
+    color: var(--primary-900)
+}
+.auto-2TJ1RH {
+    scrollbar-color: var(--bg-dark) var(--bg-lighter)
+}
+.scroller-nxCRu_ {
+    background-color: #0000
+}
+.menu-2TXYjN:not(.menu-2-eHMB) {
+    backdrop-filter: blur(16px);
+    background-color: hsla(230, 10%, 5%, .3);
+    border-radius: 8px;
+    box-shadow: #000 0 0 8px
+}
+input[type=text],
+.channelTextArea-1FufC0>.scrollableContainer-15eg7h {
+    background: var(--bg-lighter);
+    transition: box-shadow .2s
+}
+input[type=text]:focus,
+.channelTextArea-1FufC0>.scrollableContainer-15eg7h:has(*.editor-H2NA06:focus) {
+    box-shadow: hsl(230, 50%, 50%) 0 2px
+}
+.option-ayUoaq {
+    height: 34px;
+    margin: 4px 8px;
+    border-radius: 8px
+}
+.section-28YDOf:has(>.memberSinceContainer-2CBD23) {
+    padding: 12px 0
+}
+.userInfo-regn9W {
+    padding: 16px 16px 0 16px
+}
+.userInfo-regn9W>.avatar-3mTjvZ {
+    position: relative;
+    top: -48px;
+    left: 2px;
+    border: solid var(--bg-lighter) 6px
+}
+.userInfo-regn9W>div:has(.profileCardUsernameRow-1bb6fi) {
+    position: absolute;
+    left: 128px
+}
