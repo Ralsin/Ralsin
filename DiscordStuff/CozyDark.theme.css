@@ -36,12 +36,10 @@
     --bg-light: hsl(230, 10%, 15%);
     --bg-lighter: hsl(230, 10%, 18%)
 }
-.scrollerBase-1Pkza4,
 .sidebar-1tnWFu,
 .container-1NXEtd,
-.content-yjf30S,
 .option-ayUoaq,
-.scroller-3X7KbA {
+.scroller-3X7KbA:not(.listScroller-entkMk) {
     background-color: var(--bg-light);
 }
 .expandedFolderIconWrapper-3RwQpD,
