@@ -42,7 +42,7 @@
 .content-yjf30S,
 .option-ayUoaq,
 .scroller-3X7KbA {
-    background-color: var(--bg-light)
+    background-color: var(--bg-light);
 }
 .expandedFolderIconWrapper-3RwQpD,
 .expandedFolderBackground-1kSAf6 {
@@ -53,8 +53,11 @@
 .section-28YDOf:has(>.note-1NN2aP) {
     display: none
 }
-.scroller-15bIdk {
+.scroller-15bIdk, .container-1zzFcN {
     border-radius: 8px
+}
+.scroller-15bIdk:has(>.lastSection-q3HCfo) {
+    background-color: #0000
 }
 .sidebar-1tnWFu {
     border-radius: 0
@@ -155,4 +158,7 @@ input[type=text]:focus,
 .userInfo-regn9W>div:has(.profileCardUsernameRow-1bb6fi) {
     position: absolute;
     left: 128px
+}
+.animatedContainer-2laTjx {
+    z-index:2
 }
