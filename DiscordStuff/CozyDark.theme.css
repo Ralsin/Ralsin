@@ -128,9 +128,9 @@
     border-radius: 8px;
     box-shadow: #000 0 0 8px
 }
-input[type=text],
+input[type=text]:not(.messageInput-1enlaJ),
 .channelTextArea-1FufC0>.scrollableContainer-15eg7h {
-    /*! background: var(--bg-lighter); */
+    background: var(--bg-lighter);
     transition: box-shadow .2s;
 }
 input[type=text]:focus,
