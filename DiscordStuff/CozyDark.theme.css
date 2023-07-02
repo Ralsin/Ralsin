@@ -172,18 +172,18 @@ input[type=text]:focus,
     mask: none
 }
 .mask-1y0tyc.svg-1G_H_8>circle {
-    cx: calc(116px - var(--avatar-radius)*.25);
-    cy: calc(116px - var(--avatar-radius)*.25);
-}
-.mask-1y0tyc.svg-1G_H_8>rect {
-    x: calc(104px - var(--avatar-radius)*.25);
-    y: calc(104px - var(--avatar-radius)*.25);
-}
-.wrapper-3Un6-K>.mask-1y0tyc.svg-1G_H_8>circle {
     cx: calc(78px - var(--avatar-radius)*.25);
     cy: calc(78px - var(--avatar-radius)*.25);
 }
-.wrapper-3Un6-K>.mask-1y0tyc.svg-1G_H_8>rect {
+.mask-1y0tyc.svg-1G_H_8>rect {
     x: calc(70px - var(--avatar-radius)*.25);
     y: calc(70px - var(--avatar-radius)*.25);
+}
+.header-S26rhB>div>div>.mask-1y0tyc.svg-1G_H_8>circle {
+    cx: calc(116px - var(--avatar-radius)*.25);
+    cy: calc(116px - var(--avatar-radius)*.25);
+}
+.header-S26rhB>div>div>.mask-1y0tyc.svg-1G_H_8>rect {
+    x: calc(104px - var(--avatar-radius)*.25);
+    y: calc(104px - var(--avatar-radius)*.25);
 }
