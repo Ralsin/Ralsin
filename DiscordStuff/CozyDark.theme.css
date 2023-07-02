@@ -165,10 +165,12 @@ input[type=text]:focus,
 .avatarWrapper-eenWra,
 .avatarHoverTarget-1zzfRL,
 .mask-1y0tyc.svg-1G_H_8>foreignObject,
-.avatarSpeaking-36V2PN {
+.avatarSpeaking-36V2PN,
+.avatarHint-k7pYop {
     border-radius: var(--avatar-radius)
 }
-.mask-1y0tyc.svg-1G_H_8>foreignObject {
+.mask-1y0tyc.svg-1G_H_8>foreignObject,
+.avatarHint-k7pYop>foreignObject {
     mask: none
 }
 .mask-1y0tyc.svg-1G_H_8>circle {
