@@ -52,8 +52,8 @@
 .section-28YDOf:has(>.note-1NN2aP) {
     display: none
 }
-.scroller-15bIdk, .container-1zzFcN {
-    /*! border-radius: 8px; */
+.container-1zzFcN {
+    border-radius: 8px;
 }
 .scroller-15bIdk:has(>.lastSection-q3HCfo) {
     background-color: #0000
