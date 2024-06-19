@@ -154,6 +154,12 @@
 .menu_d90b3d {
     border: 1px solid transparent !important /* have to leave it at 1px or shit gets misaligned */
 }
+.item_d90b3d {
+    border-radius: 6px
+}
+.withTagAsButton_b2ca13 {
+    border-radius: 8px !important
+}
 input[type=text]:not(.messageInput_f2c0a8),
 .channelTextArea_a7d72e>.scrollableContainer_d0696b {
     background: var(--bg-lighter);
