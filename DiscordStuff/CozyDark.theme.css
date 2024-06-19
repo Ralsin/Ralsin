@@ -136,12 +136,23 @@
 .scroller_d90b3d {
     background-color: #0000
 }
-.menu_d90b3d:not(.menu_ad5fac) {
-    /* background-color: hsla(230, 10%, 10%, .95); */
+.menu_d90b3d:not(.menu_ad5fac)::before {
+    content: '';
+    min-width: 188px;
+    max-width: 320px;
+    width:calc(100% - 16px);
+    height:100%;
+    position:absolute;
     background-color: var(--primary-800-slight-transparency);
     backdrop-filter: blur(4px);
     border-radius: 8px;
     box-shadow: #000 0 0 8px
+}
+.menu_d90b3d:not(.menu_ad5fac) {
+    background-color: #0000
+}
+.menu_d90b3d {
+    border: 1px solid transparent !important /* have to leave it at 1px or shit gets misaligned */
 }
 input[type=text]:not(.messageInput_f2c0a8),
 .channelTextArea_a7d72e>.scrollableContainer_d0696b {
